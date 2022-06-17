@@ -4,7 +4,7 @@
 
 .nav-link {
     font-family: 'Barlow';
-    color: white;
+    color: white!important;
     font-size: 18px;
     font-weight: 500;
 }
@@ -324,4 +324,25 @@ a {
     .f2 .col-3 {
         width: 50px;
     } 
+}
+
+@media screen and (max-width: 500px) {
+    .nav-item .nav-link{
+        margin-left: 45%;
+        margin-right: 50%;
+    }
+
+    .nav-item button {
+        font-family: 'Fraunces';
+        margin-left: 35vw;
+    }
+
+    button.btn.bg-white.rounded-pill.py-2.px-4 {
+        margin-top: 1em;
+        margin-bottom: 2em;
+    }
+
+    .navbar-nav {
+        background: #2cb8ff;
+    }
 }
